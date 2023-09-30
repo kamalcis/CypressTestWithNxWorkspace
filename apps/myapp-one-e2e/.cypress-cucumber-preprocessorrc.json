@@ -1,0 +1,6 @@
+{
+  "stepDefinitions": [
+    "../../../libs/hmi/e2e-step-definitions/**/*.ts",
+    "src/e2e/step_definations/**/*.ts"
+  ]
+}
