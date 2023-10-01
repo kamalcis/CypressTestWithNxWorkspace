@@ -4,10 +4,6 @@ When('I visit duckduckgo.com', () => {
   cy.visit('/');
 });
 
-Then('I should see a search bar', () => {
-  cy.get('input').should(
-    'have.attr',
-    'placeholder',
-    'Search the web without being tracked'
-  );
+Then('I see a welcome message', () => {
+  cy.get('div[id="welcome"] h1').contains("Welcome myapp-one");
 });
