@@ -9,6 +9,9 @@
 
 To start the development server run `nx serve myapp_one`. Open your browser and navigate to http://localhost:4200/. Happy coding!
 
+## Running the test
+nx run myapp-one-e2e:e2e --watch
+
 
 ## Generate code
 
